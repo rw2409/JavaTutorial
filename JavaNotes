@@ -1,0 +1,7 @@
+#Unsorted
+* Callable/Future<Void>, A function return type Void (should always return null) simply tells client not to expect return value
+  * Void type cannot be initiated.
+* Use spring to find all Beans that are annotated/implemented with certain annotation or classes.
+  * E.G: on start-up find all classes annotated with Muninn Mapping annotation therefore find all source schemas, destinations and output model classes.
+* Reflection can find all annotations on given class.
+  * E.G: find all destination types for given Muninn Model classes
